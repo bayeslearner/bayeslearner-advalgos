@@ -56,6 +56,10 @@ format:
     highlight-style: github
     html-math-method: mathjax
 
+    css:
+      - present-mode.css
+    include-after-body:
+      - present-mode.html
   pdf:
     documentclass: scrbook
     papersize: letter
